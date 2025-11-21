@@ -1,10 +1,9 @@
 <?php
 
-// Basic release configuration for update checks.
 return [
     'slotkit-pro' => [
-        'latest_version' => '1.0.0',
-        'changelog' => 'Initial release.',
-        'download_base' => 'https://your-server.com/update/download',
+        'latest_version' => '1.0.2',
+        'changelog' => 'Bug fixes and improvements.',
+        'package_path' => __DIR__ . '/releases/slotkit-pro-latest.zip',
     ],
 ];
