@@ -203,6 +203,7 @@ function handle_update_download(PDO $pdo, array $releases, array $data): void {
             'plugin_slug' => $slug,
             'version' => $version,
             'note' => 'Replace with file streaming in production.',
+            'download_path' => $release['download_base'],
         ],
     ]);
 }
